@@ -1,0 +1,32 @@
+@import "./styles/components";
+@import "./Components/Navbar/navbar";
+@import "./Components/Footer/footer";
+@import "./Components/Loaders/loader";
+@import "./Components/Modal/modal";
+@import "./Pages/Home/home";
+@import "./Pages/AboutUs/about-us";
+@import "./Pages/Blogs/blogs";
+@import "./Pages/Tariffs/tariffs";
+@import "./Pages/OurTeam/our-team";
+@import "./Pages/Partnership/partnership";
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.app {
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+
+.container {
+     max-width: 1288px;
+     width: 100%;
+     margin: auto;
+     padding-left: 24px;
+     padding-right: 24px;
+}
